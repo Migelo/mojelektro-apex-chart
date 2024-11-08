@@ -101,7 +101,7 @@ color_list:
   - var(--paper-item-icon-active-color)
 update_interval: 1hour
 series:
-  - entity: sensor.mojelektro_daily_input_peak
+  - entity: sensor.moj_elektro_daily_input_peak
     name: VT
     type: column
     float_precision: 2
@@ -113,7 +113,7 @@ series:
       period: day
       align: start
     offset: +1day
-  - entity: sensor.mojelektro_daily_input_offpeak
+  - entity: sensor.moj_elektro_daily_input_offpeak
     name: MT
     type: column
     float_precision: 2

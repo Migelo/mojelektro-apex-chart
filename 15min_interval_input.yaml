@@ -83,7 +83,7 @@ color_list:
   - var(--paper-item-icon-active-color)
 
 series:
-  - entity: sensor.mojelektro_15min_input
+  - entity: sensor.moj_elektro_15min_input
     name: 15 min interval
     type: column
     float_precision: 3
